@@ -1,9 +1,9 @@
 
-import React ,{useState} from "react"
-import {Route , Routes} from "react-router-dom"
+import React, {useState} from 'react'
+import {Routes, Route} from 'react-router-dom'
 import home from './pages/Home'
 
-const app = () => {
+const App = () => {
 
   const [color] = useState("#eb8d04")
   document.body.style.backgroundColor = color
