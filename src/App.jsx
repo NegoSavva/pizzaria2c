@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react'
 import {Routes, Route} from 'react-router-dom'
-import home from './pages/Home'
+import Home from './pages/Home'
 
 const App = () => {
 
